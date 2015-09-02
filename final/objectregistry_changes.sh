@@ -999,3 +999,24 @@ $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=DateRangeValue cru
 $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=DateRangeValue group='All Users'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=DateRangeValue crud=Read
 # --== OBJECT: udo_Cargo - END ==--
+# --== OBJECT: QueueEntrySearch - BEGIN ==--
+# Object Ownership and Permissions
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=QueueEntrySearch group='TripManagers'
+$clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=QueueEntrySearch crud=Create,Read,Update,Delete
+$clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=QueueEntrySearch group='All Users'
+$clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=QueueEntrySearch crud=Create,Read
+# --== OBJECT: QueueEntrySearch - END ==--
+# --== OBJECT: DataViewField - BEGIN ==--
+# Object Ownership and Permissions
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=DataViewField group='Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=DataViewField crud=Create,Read,Update,Delete
+$clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=DataViewField group='All Users'
+$clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=DataViewField crud=Read
+# --== OBJECT: DataViewField - END ==--
+# --== OBJECT: DetailDataViewField - BEGIN ==--
+# Object Ownership and Permissions
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=DetailDataViewField group='Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=DetailDataViewField crud=Create,Read,Update,Delete
+$clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=DetailDataViewField group='All Users'
+$clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=DetailDataViewField crud=Read
+# --== OBJECT: DetailDataViewField - END ==--
