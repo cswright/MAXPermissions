@@ -271,10 +271,12 @@ $clia ObjectRegistry setProcessOwners objectRegistry=udo_Rates handle='RateFleet
 $clia ObjectRegistry setProcessOwners objectRegistry=udo_Rates handle='RateFleet_DateRange_delete__Process__20050101090000' owner='Admin' ownerCrud=Create,Read,Update,Delete group='Rates Admin' groupCrud=Create,Read
 $clia ObjectRegistry setProcessOwners objectRegistry=udo_Rates handle='RateFleet_DateRange_update__Process__20050101090000' owner='Admin' ownerCrud=Create,Read,Update,Delete group='Rates Admin' groupCrud=Create,Read
 $clia ObjectRegistry setProcessOwners objectRegistry=ObjectRegistry handle='regenerate_all_objects__Process__20050101090000' owner='System' ownerCrud=Create,Read,Update,Delete group='All Users' groupCrud=Create,Read
-# WARNING: CHECK THAT PROCESSES EXIST ON LIVE
+
+# EXISTS ON LIVE - NOT ON 2.68
 #$clia ObjectRegistry setProcessOwners objectRegistry=ReleaseNote handle='ReleaseNote_create__Process__20050101090000' owner='System' ownerCrud=Create,Read,Update,Delete group='System' groupCrud=Create,Read
 #$clia ObjectRegistry setProcessOwners objectRegistry=ReleaseNote handle='ReleaseNote_delete__Process__20050101090000' owner='System' ownerCrud=Create,Read,Update,Delete group='System' groupCrud=Create,Read
 #$clia ObjectRegistry setProcessOwners objectRegistry=ReleaseNote handle='ReleaseNote_update__Process__20050101090000' owner='System' ownerCrud=Create,Read,Update,Delete group='System' groupCrud=Create,Read
+
 $clia ObjectRegistry setProcessOwners objectRegistry=Report handle='Report' owner='System' ownerCrud=Create,Read,Update,Delete group='All Users' groupCrud=Create,Read
 $clia ObjectRegistry setProcessOwners objectRegistry=Report handle='Report_create__Process__20050101090000' owner='Admin' ownerCrud=Create,Read,Update,Delete group='Admin' groupCrud=Create,Read
 # Failed. Reason: The version control item with handle: Report_createFieldsAndFilters__Process__20050101090000 does not exist.

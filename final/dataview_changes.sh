@@ -6,8 +6,439 @@
 #
 ##################################################################################
 clia=/usr/local/bin/clia
-
-$clia DataView setPermissionsForId dataViewId=616 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=1 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=2 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=3 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=4 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=5 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=8 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=9 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=11 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=13 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=14 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=15 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=16 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=17 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=18 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=19 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=21 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=22 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=24 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=25 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=28 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=29 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=30 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=31 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=32 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+#$clia DataView setPermissionsForId dataViewId=41 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+#$clia DataView setPermissionsForId dataViewId=42 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=43 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=44 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=45 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=48 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=49 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=50 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=51 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+#$clia DataView setPermissionsForId dataViewId=52 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=53 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=54 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=58 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=59 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=60 primaryOwner='Locations Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=61 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=62 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=63 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=64 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=65 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=66 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=67 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=68 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=69 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=70 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=71 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=72 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=73 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=74 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=76 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=77 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=78 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=79 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=80 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=82 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=83 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=84 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=85 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=86 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=87 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=88 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=89 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=90 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=91 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=92 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=93 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=97 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=98 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=100 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=101 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=102 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=103 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=104 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=105 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=106 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=107 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=110 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=111 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=116 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=117 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=118 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=119 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=120 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Pallet Supervisor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=121 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Pallet Supervisor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=122 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=123 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=126 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=127 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=128 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=129 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=130 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=132 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=133 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=134 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=135 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=136 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=137 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=138 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=139 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=140 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=141 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=142 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=143 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=144 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='TripManagers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=233 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=235 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=236 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=237 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=238 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=239 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=240 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=242 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=243 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=244 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=245 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=246 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=247 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=248 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=249 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=250 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=252 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=253 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=254 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=255 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=256 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=257 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Debrief Processor' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=258 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=259 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=260 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=261 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=262 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=263 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=264 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=265 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=266 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=267 primaryOwner='Rates Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Viewer' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=268 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=269 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=270 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=271 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=272 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=274 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=275 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=276 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=277 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=278 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=279 primaryOwner='Fleet Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=280 primaryOwner='Fleet Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=281 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=282 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=283 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=284 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=285 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=286 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=287 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=288 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=289 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=290 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=291 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=293 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=295 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=297 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=298 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=299 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=301 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=302 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=304 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='System' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=307 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update,Delete
+$clia DataView setPermissionsForId dataViewId=308 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=309 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=313 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='System' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=314 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=315 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Proposal' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=316 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=318 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=320 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=321 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=322 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=323 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=324 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=325 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=326 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=327 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=328 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=329 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=330 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=331 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=332 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=333 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=334 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=335 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=340 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read
+$clia DataView setPermissionsForId dataViewId=341 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=342 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=343 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=345 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=346 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=347 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=348 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=349 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=350 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=351 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=352 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=353 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=354 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=355 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=356 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=357 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=358 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=359 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=360 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=361 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=363 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=364 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=365 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=366 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=367 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=368 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=369 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=371 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=375 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=376 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=377 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=379 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=380 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=381 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Rules' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=382 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=383 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=384 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=385 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=387 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=388 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=389 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='System' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=390 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=391 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=395 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=398 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=401 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=402 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=403 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=404 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=405 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=406 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=407 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=408 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Local Distribution' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=410 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=411 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=412 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=413 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=415 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=416 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=417 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Fleet Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=418 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=420 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=421 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=423 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=424 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=425 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=428 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=430 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Refuel Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=432 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=433 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=434 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=435 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=436 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=437 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=438 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=439 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=440 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=441 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=442 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=443 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=444 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='ManualPositionsManagers' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=445 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=446 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=452 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=453 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=457 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=458 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=465 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=466 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Cargo Histories' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=469 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=470 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=471 primaryOwner='Rates Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Viewer' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=472 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=473 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=474 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Customers' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=476 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=477 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=478 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=479 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=480 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=481 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=482 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='System' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=483 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=484 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read,Update
+$clia DataView setPermissionsForId dataViewId=485 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=486 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=487 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=488 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
+$clia DataView setPermissionsForId dataViewId=489 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=490 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=491 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=492 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=493 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=494 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=495 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=496 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=497 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=498 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=499 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=500 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=501 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=502 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=503 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=504 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=505 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=506 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=507 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=508 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=509 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=510 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=511 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=512 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=513 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=514 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=515 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=516 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=517 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=518 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=519 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=520 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=521 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=522 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=523 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=524 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=525 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=526 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=527 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=528 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=529 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=530 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=531 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=532 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=533 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=534 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=535 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=536 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=537 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=540 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=541 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=542 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=543 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=544 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=545 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=546 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=547 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=548 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=549 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=550 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=551 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=552 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=553 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=554 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=555 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='System' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=556 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=557 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=558 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=559 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=560 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=561 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=562 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=563 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=564 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=565 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=566 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=567 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=568 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=569 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=570 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=572 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=573 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=574 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=575 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=576 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=577 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=578 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=579 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=580 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=581 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=582 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# $clia DataView setPermissionsForId dataViewId=583 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# Failed. Reason: No such registered item with id: 337
+# $clia DataView setPermissionsForId dataViewId=584 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=585 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=586 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=587 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=588 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=589 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=590 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=591 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=592 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# Failed. Reason: Views with id  593 not found.
+# $clia DataView setPermissionsForId dataViewId=593 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# $clia DataView setPermissionsForId dataViewId=594 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=595 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=596 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=597 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=598 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# $clia DataView setPermissionsForId dataViewId=599 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# Failed. Reason: No such registered item with id: 615
+$clia DataView setPermissionsForId dataViewId=600 primaryOwner='Refuel Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=601 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=602 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=603 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=604 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=605 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=606 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=607 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=608 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=609 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=610 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=611 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=612 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=613 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=614 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+# Failed. Reason: No such registered item with id: 615
+# $clia DataView setPermissionsForId dataViewId=615 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+#$clia DataView setPermissionsForId dataViewId=616 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=617 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=618 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=619 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
@@ -102,36 +533,36 @@ $clia DataView setPermissionsForId dataViewId=707 primaryOwner='Admin' primaryOw
 $clia DataView setPermissionsForId dataViewId=708 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=709 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=710 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=711 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=712 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=711 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=712 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=713 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=714 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=715 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=714 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=715 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=716 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=717 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=718 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=717 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=718 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Locations' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=719 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=722 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
 $clia DataView setPermissionsForId dataViewId=723 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
-$clia DataView setPermissionsForId dataViewId=724 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=725 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=726 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=727 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=728 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=729 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=730 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=731 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=732 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=733 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=734 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=735 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=724 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=725 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=726 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=727 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=728 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=729 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=730 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=731 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=732 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=733 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=734 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=735 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=736 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read
 $clia DataView setPermissionsForId dataViewId=737 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=738 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=739 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=738 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=739 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Rates Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=742 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=743 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read,Update
-$clia DataView setPermissionsForId dataViewId=744 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=744 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=745 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
 $clia DataView setPermissionsForId dataViewId=746 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=747 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
@@ -161,18 +592,18 @@ $clia DataView setPermissionsForId dataViewId=771 primaryOwner='All Users' prima
 $clia DataView setPermissionsForId dataViewId=772 primaryOwner='All Users' primaryOwnerCrud=Read groupOwner='System' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=773 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=774 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Create,Read,Update
-$clia DataView setPermissionsForId dataViewId=776 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=777 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=776 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=777 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=778 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=779 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=779 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=780 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=782 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=785 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=786 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=785 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=786 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=787 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=789 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=789 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=791 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=792 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=792 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=793 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Create,Read,Update
 $clia DataView setPermissionsForId dataViewId=795 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=796 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
@@ -197,73 +628,73 @@ $clia DataView setPermissionsForId dataViewId=814 primaryOwner='Admin' primaryOw
 $clia DataView setPermissionsForId dataViewId=815 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=816 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=818 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=819 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=819 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=820 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=821 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=822 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=823 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=824 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=824 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=825 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=826 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=827 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=826 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=827 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=833 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=834 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=835 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=836 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=838 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=839 primaryOwner='Cheryl James' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=834 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=835 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=836 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Team Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=838 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=839 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=840 primaryOwner='Admin' primaryOwnerCrud=Read,Update groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=841 primaryOwner='Admin' primaryOwnerCrud=Read,Update groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=842 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Create,Read,Update
-$clia DataView setPermissionsForId dataViewId=845 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=845 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=846 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=847 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=849 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=850 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=852 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=853 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=854 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=855 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Meryle Moodley' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=856 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=858 primaryOwner='Manline' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=849 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=850 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=852 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=853 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=854 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=855 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=856 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=858 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=859 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Sherlocks Report Viewer' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=860 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=861 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=860 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=861 primaryOwner='System' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=863 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=864 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=866 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=867 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=868 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=869 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=870 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manager' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=873 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=869 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=870 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manager' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=873 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=874 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Finance Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=875 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Cheryl James' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=876 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=877 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=880 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=880 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manager' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=881 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=882 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=883 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=884 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=885 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=886 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=887 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Feighen Oosterbroek' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=888 primaryOwner='Reports' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Feighen Oosterbroek' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=886 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Contrib Report Viewer' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=887 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=888 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=889 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=890 primaryOwner='Reports' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Feighen Oosterbroek' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=891 primaryOwner='Manager' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Feighen Oosterbroek' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=892 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=893 primaryOwner='Reports' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Clinton Wright' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=890 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=891 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manager' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=892 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=893 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=894 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=895 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=896 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update groupOwner='Customers Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=897 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=898 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=899 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=900 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=901 primaryOwner='Marcus Ganesh' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=903 primaryOwner='Clinton Wright' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=900 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=901 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=903 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=904 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=905 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=906 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
@@ -286,18 +717,18 @@ $clia DataView setPermissionsForId dataViewId=922 primaryOwner='Admin' primaryOw
 $clia DataView setPermissionsForId dataViewId=923 primaryOwner='All Users' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=924 primaryOwner='All Users' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=925 primaryOwner='All Users' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=926 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=926 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=928 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=929 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=930 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=929 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=930 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=931 primaryOwner='System' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=932 primaryOwner='System' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=933 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=934 primaryOwner='Admin' primaryOwnerCrud=Read,Update groupOwner='Admin' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=935 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=936 primaryOwner='Feighen Oosterbroek' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=936 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=937 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=938 primaryOwner='Justin Ward' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=938 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=939 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=940 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=941 primaryOwner='Admin' primaryOwnerCrud=Create,Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
@@ -305,7 +736,7 @@ $clia DataView setPermissionsForId dataViewId=942 primaryOwner='Admin' primaryOw
 $clia DataView setPermissionsForId dataViewId=943 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=944 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=945 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Manline' groupOwnerCrud=Read
-$clia DataView setPermissionsForId dataViewId=946 primaryOwner='Justin Ward' primaryOwnerCrud=Read,Update,Delete groupOwner='Justin Ward' groupOwnerCrud=Read
+$clia DataView setPermissionsForId dataViewId=946 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Reports' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=947 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=948 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='All Users' groupOwnerCrud=Read
 $clia DataView setPermissionsForId dataViewId=949 primaryOwner='Admin' primaryOwnerCrud=Read,Update,Delete groupOwner='Admin' groupOwnerCrud=Read

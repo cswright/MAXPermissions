@@ -97,3 +97,20 @@ $clia User addMembership group="Customers" rolePlayer="Depot Managers" role="Def
 #$clia User addMembership group="Manline" rolePlayer="Workshop Manager" role="Default"
 #$clia User addMembership group="WorkshopAdmin" rolePlayer="Workshop Manager" role="Default"
 #$clia User addMembership group="Reports" rolePlayer="Workshop Manager" role="Default"
+
+# Add Finance Admin to Accounting User Types
+$clia User addMembership group="Finance Admin" rolePlayer="Credit Manager" role="Default"
+$clia User addMembership group="Finance Admin" rolePlayer="Debtors Clerk" role="Default"
+$clia User addMembership group="Finance Admin" rolePlayer="Invoicing Clerk" role="Default"
+
+# Remove all memberships that Manager is part of
+$clia User deleteMembership group="Traders" rolePlayer="Manager"
+$clia User deleteMembership group="Reports" rolePlayer="Manager"
+$clia User deleteMembership group="Fleet" rolePlayer="Manager"
+$clia User deleteMembership group="Trip Search" rolePlayer="Manager"
+$clia User deleteMembership group="TripManagers" rolePlayer="Manager"
+
+# Add Manager to Manager Type Users
+$clia User addMembership group="Manager" rolePlayer="Depot Managers" role="Default"
+$clia User addMembership group="Manager" rolePlayer="Managers" role="Default"
+$clia User addMembership group="Manager" rolePlayer="Admin" role="Default"
