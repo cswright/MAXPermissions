@@ -914,7 +914,7 @@ $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_TripLegCargo cru
 # --== OBJECT: udo_TripProject - BEGIN ==--
 
 # Object Ownership and Permissions
-$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_TripProject group='Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_TripProject group='TripManagers'
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_TripProject crud=Create,Read,Update,Delete
 $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_TripProject group='All Users'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_TripProject crud=Read
