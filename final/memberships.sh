@@ -42,6 +42,9 @@ $clia User addMembership group="Income Report Viewer" rolePlayer="Debrief Tracke
 # Add groups to Support Admin
 $clia User addMembership group="Contact Admin" rolePlayer="Support Admin" role="Default"
 
+# Add groups to Rates Manager
+$clia User addMembership group="Manline" rolePlayer="Rates Manager" role="Default"
+
 # Add Debrief Manager as a member to groups
 $clia User addMembership group="Manline" rolePlayer="Debrief Manager" role="Default"
 $clia User addMembership group="Syspro Orders" rolePlayer="Debrief Manager" role="Default"
