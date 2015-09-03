@@ -44,6 +44,8 @@ $clia User addMembership group="Contact Admin" rolePlayer="Support Admin" role="
 
 # Add groups to Rates Manager
 $clia User addMembership group="Manline" rolePlayer="Rates Manager" role="Default"
+$clia User addMembership group="Common Admin" rolePlayer="Rates Manager" role="Default"
+$clia User addMembership group="Contact Admin" rolePlayer="Rates Manager" role="Default"
 
 # Add Debrief Manager as a member to groups
 $clia User addMembership group="Manline" rolePlayer="Debrief Manager" role="Default"

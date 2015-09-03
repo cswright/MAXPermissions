@@ -7,19 +7,15 @@ $clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_CustomerBusin
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_CustomerBusinessUnit_link crud=Create,Read,Update,Delete
 $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_CustomerBusinessUnit_link group='Customers Admin'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_CustomerBusinessUnit_link crud=Create,Read
-
 # udo_OffloadingCustomersBusinessUnit_link
-$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_OffloadingCustomersBusinessUnit_link group='Rates Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_OffloadingCustomersBusinessUnit_link group='Admin'
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_OffloadingCustomersBusinessUnit_link crud=Create,Read,Update,Delete
-$clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_OffloadingCustomersBusinessUnit_link group='All Users'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_OffloadingCustomersBusinessUnit_link crud=Create,Read
-
 # udo_CustomerLocationsBusinessUnit_link
-$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_CustomerLocationsBusinessUnit_link group='Rates Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_CustomerLocationsBusinessUnit_link group='Admin'
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_CustomerLocationsBusinessUnit_link crud=Create,Read,Update,Delete
 $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_CustomerLocationsBusinessUnit_link group='All Users'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_CustomerLocationsBusinessUnit_link crud=Create,Read
-
 # udo_OffloadingCustomers
 $clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_OffloadingCustomers group='Customers Admin'
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_OffloadingCustomers crud=Create,Read,Update,Delete
@@ -149,7 +145,7 @@ $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_ProductType gro
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_ProductType crud=Read
 
 # udo_Province
-$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_Province group='Locations Admin'
+$clia ObjectRegistry setObjectPrimaryOwnerGroup objectRegistry=udo_Province group='Admin'
 $clia ObjectRegistry setObjectPrimaryOwnerCrud objectRegistry=udo_Province crud=Create,Read,Update,Delete
 $clia ObjectRegistry setObjectGroupOwnerGroup objectRegistry=udo_Province group='All Users'
 $clia ObjectRegistry setObjectGroupOwnerCrud objectRegistry=udo_Province crud=Read
